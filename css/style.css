@@ -129,10 +129,10 @@
 }
 
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 .desktop-element {
-  display: none !important;
+  display: none;
 }
 .mobile-element {
   display: block;
@@ -988,7 +988,7 @@
     display: none;
   }
   .tablet-element {
-    display: block !important;
+    display: block;
   }
   .hero-section-title {
     margin-bottom: 0;
@@ -1205,10 +1205,10 @@
     max-width: var(--desktop-lg);
   }
   .tablet-element {
-    display: none !important;
+    display: none;
   }
   .desktop-element {
-    display: block !important;
+    display: block;
   }
   .hero-section-title {
     z-index: 4;
@@ -1495,8 +1495,6 @@
   /* width: 963px; */
 }
 .swiper-container {
-  width: 900px;
-  /* height: auto;
-  margin-bottom: 30px;
-} */
+  width: 900px; 
+}
 }
